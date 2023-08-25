@@ -9,6 +9,7 @@ import {
   CDBSidebarMenuItem,
 } from 'cdbreact';
 import { NavLink } from 'react-router-dom';
+import { Opacity } from '@mui/icons-material';
 
 const Sidebar = ({ onSelectTab }) => {
   const [isMobile, setIsMobile] = useState(false);
@@ -31,7 +32,7 @@ const Sidebar = ({ onSelectTab }) => {
   };
 
   return (
-    <div style={{ display: 'flex', height: '100vh', overflow: 'scroll initial' }}>
+    <div style={{ display: 'flex', height: '100vh', overflow: 'scroll initial'}}>
       <CDBSidebar textColor="#fff" backgroundColor="transparent">
         <CDBSidebarHeader prefix={isMobile ? <i className="fa fa-bars fa-large"></i> : null}>
           

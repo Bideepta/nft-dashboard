@@ -15,6 +15,7 @@ function CardList({ pairs }) {
                   <p>CreatedAt: {pair.pairCreatedAt}</p>
                   <p>dexId: {pair.dexId}</p>
                   <p>pairAddress: {pair.pairAddress}</p>
+                  <img src="" alt="" />
                 </div>
               </div>
             </div>

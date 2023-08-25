@@ -12,11 +12,12 @@ const Searchbar = () => {
     <div style={{ padding: '0 16px', marginTop: '25px', marginLeft: '10px' }}>
       <input
         type="search"
-        placeholder="Search..."
+        placeholder="Search.."
         value={searchText}
         onChange={handleSearch}
         className="search-input"
       />
+      {/* <img src="/search.png" alt="search" /> */}
     </div>
   );
 };
